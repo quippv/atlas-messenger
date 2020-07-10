@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## ATLAS MESSENGER
+
+You can test with email test@test.com and password 123456.
+
 ## Available Scripts
 
 In the project directory, you can run:
