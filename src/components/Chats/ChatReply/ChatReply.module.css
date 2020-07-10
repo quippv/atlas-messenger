@@ -1,0 +1,89 @@
+.Reply {
+  width: 98%;
+  box-sizing: border-box;
+  grid-area: reply-chats;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  place-self: end center;
+}
+
+.Emoji {
+  position: absolute;
+  z-index: 190;
+  bottom: 120px;
+}
+
+.Reply button,
+.Reply .Upload {
+  margin-top: 5px;
+  width: 50%;
+  color: #fff;
+  outline: none;
+  border: 1px solid #eee;
+  padding: 10px;
+  position: relative;
+  font-weight: 700;
+}
+
+.Success {
+  background-color: orangered;
+  border-radius: 5px 0 0 5px;
+}
+
+.Success span {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(255, 0, 0);
+}
+
+.Success:hover {
+  background-color: #ff3300;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23851b00' fill-opacity='0.47'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+.Upload {
+  background-color: aqua;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.Upload span {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(0, 114, 114);
+}
+
+.Upload:hover {
+  background-color: #00ffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23049d9d' fill-opacity='0.45'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .Upload span,
+  .Success span {
+    display: none;
+  }
+
+  .Emoji {
+    left: 20px;
+  }
+}

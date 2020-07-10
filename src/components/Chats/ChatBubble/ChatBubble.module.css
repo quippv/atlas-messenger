@@ -1,0 +1,52 @@
+.Bubble {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ProfileImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgb(139, 139, 139);
+}
+
+.ChatInfo {
+  padding-left: 8px;
+  width: 80%;
+}
+
+.ChatInfo h5 span {
+  font-weight: 400;
+  color: #ccc;
+}
+
+.ChatInfo p {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.ChatInfo p::selection {
+  background-color: #ff4500;
+}
+
+.ChatInfo img {
+  width: 80%;
+  margin-top: 8px;
+}
+
+.ChatInfo > * {
+  margin: 0;
+}
+
+@media (min-width: 700px) {
+  .ProfileImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+}

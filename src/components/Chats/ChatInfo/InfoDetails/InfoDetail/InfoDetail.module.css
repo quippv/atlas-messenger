@@ -1,0 +1,9 @@
+.InfoDetail {
+  padding: 10px;
+  border: 0.5px solid #000;
+}
+
+.InfoDetail h5,
+.InfoDetail p {
+  margin: 0;
+}

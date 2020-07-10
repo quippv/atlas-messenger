@@ -1,0 +1,18 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Home img {
+  width: 80%;
+  padding-top: 50%;
+}
+
+@media (min-width: 700px) {
+  .Home img {
+    width: 50%;
+    padding-top: 10%;
+  }
+}

@@ -1,0 +1,33 @@
+.Auth {
+  width: 80%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.Auth img {
+  height: 20%;
+  margin: auto;
+  display: block;
+}
+
+.Auth h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.Auth label {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.Auth button {
+  margin: 10px auto;
+}
+
+@media (min-width: 700px) {
+  .Auth {
+    width: 50%;
+  }
+}

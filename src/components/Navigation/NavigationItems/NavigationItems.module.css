@@ -1,0 +1,53 @@
+.Items {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.Items h3,
+.Items ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Items h3 {
+  font-size: 0.8rem;
+}
+
+.Items ul {
+  padding: 0 0 0 20px;
+}
+
+.Items li {
+  margin-bottom: 5px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.Items div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TriangleDown {
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  cursor: pointer;
+}
+
+.TriangleUp {
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  cursor: pointer;
+}

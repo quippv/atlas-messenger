@@ -1,0 +1,30 @@
+.Sidebar {
+  width: 10%;
+  height: 100vh;
+  background-color: #887e86;
+  box-sizing: border-box;
+}
+
+.Plus {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  height: 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .Sidebar {
+    width: 3%;
+  }
+
+  .Plus {
+    height: 30px;
+    line-height: 25px;
+  }
+}

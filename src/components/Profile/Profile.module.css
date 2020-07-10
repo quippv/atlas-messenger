@@ -1,0 +1,25 @@
+.Profile {
+  width: 80%;
+  height: 40px;
+  margin: 30px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Profile > * {
+  margin-right: 10px;
+}
+
+.Profile h1 {
+  font-size: 16px;
+}
+
+.ImageProfile {
+  height: 100%;
+  width: 40px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}

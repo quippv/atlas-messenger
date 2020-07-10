@@ -1,0 +1,45 @@
+.Navigation {
+  width: 20%;
+  height: 100vh;
+  background-color: #595353;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.Navigation::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Navigation::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  background-color: #595353;
+  border-radius: 10px;
+}
+
+.Navigation::-webkit-scrollbar-thumb {
+  background-color: #413c3c;
+  border-radius: 10px;
+}
+
+.Navigation::-webkit-scrollbar-thumb:hover {
+  background: #2e2b2b;
+}
+
+@media (max-width: 700px) {
+  .Navigation {
+    position: fixed;
+    z-index: 200;
+    width: 80%;
+    top: 0;
+    left: 0;
+  }
+
+  .Open {
+    transform: translateX(0);
+  }
+
+  .Close {
+    transform: translateX(-150%);
+  }
+}

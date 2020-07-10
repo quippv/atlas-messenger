@@ -1,0 +1,18 @@
+.Toggle {
+  margin: 10px auto;
+  width: 80%;
+  cursor: pointer;
+}
+
+.Toggle div {
+  height: 5px;
+  width: 100%;
+  background-color: #fff;
+  margin: 8px 0;
+}
+
+@media (min-width: 700px) {
+  .Toggle {
+    display: none;
+  }
+}

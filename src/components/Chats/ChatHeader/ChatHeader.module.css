@@ -1,0 +1,49 @@
+.ChatHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  height: 80%;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  grid-area: header-chats;
+  place-self: start center;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.ChatHeaderName {
+  width: 60%;
+}
+
+.ChatHeaderName h1,
+.ChatHeaderName p {
+  padding: 0;
+  margin: 0;
+}
+
+.ChatHeaderName h1 {
+  font-size: 1.1rem;
+}
+
+.ChatHeaderName p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.ChatSearch {
+  display: flex;
+  align-items: center;
+}
+
+.Vert {
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .Vert {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.ChatInfo {
+  width: 98%;
+  box-sizing: border-box;
+  grid-area: info-chats;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+  place-self: start center;
+}
+
+@media (max-width: 700px) {
+  .ChatInfo {
+    display: none;
+  }
+}

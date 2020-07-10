@@ -1,0 +1,29 @@
+.Main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  width: 98%;
+  height: 100vh;
+  background-color: #eee;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  grid-template-columns: auto;
+  grid-template-rows: 12% 70% 18%;
+  grid-template-areas:
+    "header-chats"
+    "mainChats"
+    "reply-chats";
+}
+
+@media (min-width: 700px) {
+  .Main {
+    width: 80%;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 15% 65% auto;
+    grid-template-areas:
+      "header-chats info-chats"
+      "mainChats info-chats"
+      "reply-chats reply-chats";
+  }
+}

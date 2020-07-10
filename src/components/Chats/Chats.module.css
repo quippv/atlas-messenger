@@ -1,0 +1,45 @@
+.Chats {
+  width: 98%;
+  height: 95%;
+  box-sizing: border-box;
+  grid-area: mainChats;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.8em;
+  padding-bottom: 0;
+  place-self: start center;
+  overflow: auto;
+}
+
+.Chats::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+}
+
+.Chats::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Chats::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.Chats::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+@media (min-width: 700px) {
+  .Chats {
+    height: 100%;
+  }
+}
