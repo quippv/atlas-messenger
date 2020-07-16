@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## ATLAS MESSENGER
 
-You can test with email test@test.com and password 123456.
+You can test with email test@test.com and password 123456. https://atlas-messenger-6b2b8.web.app/auth
 
 ## Available Scripts
 
